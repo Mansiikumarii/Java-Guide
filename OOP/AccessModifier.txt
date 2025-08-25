@@ -1,0 +1,27 @@
+Access modifiers
+1) Public - all packages
+2) Private - same class
+3) Default - same package
+
+"this" keyword
+
+private int rno;
+
+public void setRno(int rno){
+    this.rno = rno;
+}
+
+what is a Constructor?
+Student s1 = new Student("Kinjal",76,92.1);
+
+What is Static keyword?
+class Student{
+  int no;
+  String name;
+  double percent;
+  static int numberOfStudents;  
+}
+
+What is Static function?
+used if we want to access a function in the class through 
+just classname.function.
