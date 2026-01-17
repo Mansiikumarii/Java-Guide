@@ -1,42 +1,75 @@
-public class Operators {
-    public static void main(String args[]){
-        //operators
-        int a =40;
-        int b= 2;
-        int diff = a-b;
-        double modulo = a%b;
-        System.out.println(modulo);
-        System.out.println(diff);
+public class Operators{
+   public static void main(String[] args){
+    int x = 100+50;
+    System.out.println(x);
 
-        //assignment operator
-        int numb = 1;
-        numb ++;
-        System.out.println(numb);
-        ++numb;
-        System.out.println(numb);
-        System.out.println(--numb);
-        System.out.println(numb--);
+    //minus operator
+    int x1 = 100-50;
+    System.out.println(x1);
 
-        //comparison operator
-        // a == b
-        //a != b
-        // a<= b
-        //a >= b
-        
-        //logical operator
-        if(a < 50 && b<50)
-        System.out.println("both less than 50");
+    //multiplication operator
+    int x3 = 10*6;
+    System.out.println(x3);
 
-        // || 
-        if(a < 50 || b< 50)
-        System.out.println("Atleast one ");
+    //division operator
+    int x4 = 100/50;
+    System.out.println(x4);
 
-        boolean isAdult = true;
-        if(isAdult)
-        System.out.println("is adult");
-        else
-        System.out.println("not adult");
+    //modulus operator
+    int x5 = 10%3;
+    System.out.println(x5);
 
-        
-    }
+    //increment operator
+    int x6 = 5;
+    System.out.println(x6);
+    x6++;
+    System.out.println(x6);
+
+    //decrement operator
+    int x7 = 5;
+    System.out.println(x7);
+    x7--;
+    System.out.println(x7);
+
+    //Assignment operator
+    int x8 = 5;
+    System.out.println(x8);
+    x8 += 5;
+    System.out.println(x8);
+
+    //minus equals
+    x8 -= 3;
+    System.out.println(x8);
+
+    x8 *= 3;
+    System.out.println(x8);
+
+    x8 /= 2;
+    System.out.println(x8);
+
+    x8 %= 2;
+    System.out.println(x8);
+
+    //comparision operators
+    int x9 = 5;
+    System.out.println(x9 == 5);
+
+    System.out.println(x9 != 3);
+
+    //grater or less than
+    System.out.println(10>9);
+    System.out.println(3<2);
+
+    //greater than / less than or equal
+    System.out.println(5>= 5);
+
+    //Logical operator
+    System.out.println(x9 <5 && x9 <10);
+
+    //or operator
+    System.out.println(x9 <5 || x9 <10);
+
+    //not operator
+    System.out.println(!(x9 <5 && x9 <10));
+   } 
 }
