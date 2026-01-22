@@ -1,0 +1,13 @@
+public class Main 
+{
+    public static void func (final int a, int b) 
+    {
+        a = 200;
+        b = 100;
+        System.out.println (a + " " + b);
+    }
+    public static void main (String[]args) 
+    {
+        func (100, 200);
+    } 
+}
